@@ -1,45 +1,75 @@
-# Blockchain
-# 🧾 IBM Food Trust - Truy xuất nguồn gốc nông sản
+# 🌾 IBM Food Trust Blockchain App
 
-Ứng dụng web mô phỏng hệ thống truy xuất chuỗi cung ứng nông sản theo mô hình IBM Food Trust.  
-Được xây dựng bằng **Flask + Bootstrap 5** và lưu trữ dữ liệu sản phẩm bằng công nghệ blockchain đơn giản.
+Ứng dụng Flask mô phỏng nền tảng IBM Food Trust giúp **đăng ký**, **truy xuất nguồn gốc**, **quản lý chuỗi cung ứng** và **chứng minh chất lượng nông sản** bằng công nghệ Blockchain.
+
+> ✅ Dành cho mô phỏng giáo dục, minh họa cách truy xuất nông sản minh bạch và an toàn.
+### 📦 Tính năng chính
+✅ Đăng ký nông sản (ID, nông dân, chứng nhận…)
+
+✅ Cập nhật chuỗi cung ứng (đóng gói, vận chuyển, tiêu thụ)
+
+✅ Cảnh báo sản phẩm quá hạn (>7 ngày chưa bán)
+
+✅ Tải file PDF chứng nhận sản phẩm
+
+✅ Tạo mã QR truy xuất chi tiết
+
+✅ Tìm kiếm sản phẩm theo tên hoặc ID
+
+## 🛠️ Công nghệ sử dụng
+
+### 🔗 Backend
+- **Python 3.10+**
+- **Flask** – Web Framework
+- **Jinja2** – Template Engine
+- **qrcode** – Tạo mã QR
+- **Werkzeug** – File upload
+- **Base64, io, datetime** – Xử lý ảnh và dữ liệu
+
+### 💾 Blockchain
+- Blockchain đơn giản viết bằng Python
+- Dữ liệu không mất khi ghi vào file (tùy chỉnh `blockchain.py`)
 
 ---
 
-## 🚀 Tính năng nổi bật
-
-- Đăng ký sản phẩm nông sản lên blockchain
-- Timeline chuỗi cung ứng: Đóng gói, vận chuyển, tiêu thụ
-- Upload tài liệu PDF (chứng nhận, hóa đơn...)
-- Cảnh báo nếu sản phẩm thu hoạch quá 7 ngày chưa tiêu thụ
-- Tìm kiếm sản phẩm theo tên hoặc mã ID
-- Tạo mã QR để quét truy xuất thông tin sản phẩm
-- Lưu blockchain ra file `blockchain_data.json`
-- Deploy online bằng Render.com
-##🛠️Công nghệ sử dụng
-
+## 📁 Cấu trúc dự án
 
 ---
-#Cấu trúc thư mục
+ibm-food-trust/
+├── app.py # Flask app chính
+├── blockchain.py # Class Blockchain và Block
+├── requirements.txt # Các thư viện cần thiết
+│
+├── templates/ # Giao diện HTML
+│ ├── base.html # Layout Bootstrap
+│ ├── home.html # Trang chủ
+│ ├── register.html # Đăng ký sản phẩm
+│ ├── products.html # Danh sách
+│ └── product_detail.html # Chi tiết, upload, QR
+│
+├── uploads/ # Tự tạo, lưu file PDF
+└── static/ # (Tuỳ chọn) CSS, JS
 
-├── app.py                  # Flask app chính
+## 🚀 Cài đặt và chạy thử
 
-├── blockchain.py           # Blockchain class đơn giản
-
-├── blockchain_data.json    # Lưu dữ liệu blockchain (tự tạo khi chạy)
-
-├── templates/              # HTML templates (Jinja2 + Bootstrap 5)
-
-├── uploads/                # Lưu file PDF người dùng tải lên
-
-├── requirements.txt        # Danh sách thư viện
-
-├── render.yaml             # Cấu hình deploy Render
-
-
-#💡 Ý tưởng thực hiện
-Dự án mô phỏng cơ chế hoạt động của nền tảng IBM Food Trust – ứng dụng blockchain để minh bạch hóa chuỗi cung ứng nông sản, phục vụ người tiêu dùng và nhà sản xuất.
-
-Người thực hiện
-Khanh Huyen
-📫 https://github.com/khuyennn97
+### ⚙️ Yêu cầu hệ thống
+- Python 3.10 trở lên
+- pip (trình quản lý gói)
+  
+###📦Bước 1: Clone dự án
+```bash
+git clone https://github.com/khuyennn97/ibm-food-trust.git
+cd ibm-food-trust
+###📥 Bước 2: Cài thư viện
+pip install -r requirements.txt
+###▶️ Bước 3: Chạy ứng dụng Flask
+python app.py
+Truy cập tại: http://localhost:5000
+🌐 Triển khai trên Render
+  1.Push code lên GitHub
+  2.Truy cập https://render.com
+  3.Chọn New Web Service
+  4.Kết nối GitHub → chọn repo ibm-food-trust
+  5.Start command:
+    python app.py
+  6.Build command: (Để trống hoặc dùng pip install -r requirements.txt)
