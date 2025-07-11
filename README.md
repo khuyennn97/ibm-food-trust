@@ -1,5 +1,4 @@
-# blockchain
-# cn blockchain
+# Blockchain
 # 🧾 IBM Food Trust - Truy xuất nguồn gốc nông sản
 
 Ứng dụng web mô phỏng hệ thống truy xuất chuỗi cung ứng nông sản theo mô hình IBM Food Trust.  
@@ -9,14 +8,14 @@
 
 ## 🚀 Tính năng nổi bật
 
-- ✅ Đăng ký sản phẩm nông sản lên blockchain
-- 📜 Timeline chuỗi cung ứng: Đóng gói, vận chuyển, tiêu thụ
-- 📎 Upload tài liệu PDF (chứng nhận, hóa đơn...)
-- ⚠️ Cảnh báo nếu sản phẩm thu hoạch quá 7 ngày chưa tiêu thụ
-- 🔍 Tìm kiếm sản phẩm theo tên hoặc mã ID
-- 📱 Tạo mã QR để quét truy xuất thông tin sản phẩm
-- 💾 Lưu blockchain ra file `blockchain_data.json`
-- 🌐 Deploy online bằng Render.com
+- Đăng ký sản phẩm nông sản lên blockchain
+- Timeline chuỗi cung ứng: Đóng gói, vận chuyển, tiêu thụ
+- Upload tài liệu PDF (chứng nhận, hóa đơn...)
+- Cảnh báo nếu sản phẩm thu hoạch quá 7 ngày chưa tiêu thụ
+- Tìm kiếm sản phẩm theo tên hoặc mã ID
+- Tạo mã QR để quét truy xuất thông tin sản phẩm
+- Lưu blockchain ra file `blockchain_data.json`
+- Deploy online bằng Render.com
 
 ---
 #Cấu trúc thư mục
