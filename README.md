@@ -36,19 +36,33 @@
 
 ---
 ibm-food-trust/
+
 ├── app.py # Flask app chính
+
 ├── blockchain.py # Class Blockchain và Block
+
 ├── requirements.txt # Các thư viện cần thiết
+
 │
+
 ├── templates/ # Giao diện HTML
+
 │ ├── base.html # Layout Bootstrap
+
 │ ├── home.html # Trang chủ
+
 │ ├── register.html # Đăng ký sản phẩm
+
 │ ├── products.html # Danh sách
+
 │ └── product_detail.html # Chi tiết, upload, QR
+
 │
+
 ├── uploads/ # Tự tạo, lưu file PDF
+
 └── static/ # (Tuỳ chọn) CSS, JS
+
 
 ## 🚀 Cài đặt và chạy thử
 
