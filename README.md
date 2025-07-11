@@ -96,3 +96,7 @@ Truy cập tại: http://localhost:5000
   
     python app.py
   6.Build command: (Để trống hoặc dùng pip install -r requirements.txt)
+
+  ---
+  ## 📄License
+  MIT License - xem file LICENSE để biết thêm chi tiết
