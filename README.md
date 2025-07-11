@@ -21,13 +21,21 @@
 
 ---
 #Cấu trúc thư mục
+
 ├── app.py                  # Flask app chính
+
 ├── blockchain.py           # Blockchain class đơn giản
+
 ├── blockchain_data.json    # Lưu dữ liệu blockchain (tự tạo khi chạy)
+
 ├── templates/              # HTML templates (Jinja2 + Bootstrap 5)
+
 ├── uploads/                # Lưu file PDF người dùng tải lên
+
 ├── requirements.txt        # Danh sách thư viện
+
 ├── render.yaml             # Cấu hình deploy Render
+
 
 #💡 Ý tưởng thực hiện
 Dự án mô phỏng cơ chế hoạt động của nền tảng IBM Food Trust – ứng dụng blockchain để minh bạch hóa chuỗi cung ứng nông sản, phục vụ người tiêu dùng và nhà sản xuất.
