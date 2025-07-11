@@ -35,4 +35,3 @@ Dự án mô phỏng cơ chế hoạt động của nền tảng IBM Food Trust 
 Người thực hiện
 Khanh Huyen
 📫 https://github.com/khuyennn97
-h
