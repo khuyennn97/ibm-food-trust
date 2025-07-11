@@ -70,13 +70,12 @@ ibm-food-trust/
 - Python 3.10 trở lên
 - pip (trình quản lý gói)
   
-###📦Bước 1: Clone dự án
-```bash
+### 📦Bước 1: Clone dự án
 git clone https://github.com/khuyennn97/ibm-food-trust.git
 cd ibm-food-trust
-###📥 Bước 2: Cài thư viện
+### 📥 Bước 2: Cài thư viện
 pip install -r requirements.txt
-###▶️ Bước 3: Chạy ứng dụng Flask
+### ▶️ Bước 3: Chạy ứng dụng Flask
 python app.py
 Truy cập tại: http://localhost:5000
 🌐 Triển khai trên Render
