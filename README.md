@@ -16,6 +16,8 @@
 - Tạo mã QR để quét truy xuất thông tin sản phẩm
 - Lưu blockchain ra file `blockchain_data.json`
 - Deploy online bằng Render.com
+##🛠️Công nghệ sử dụng
+
 
 ---
 #Cấu trúc thư mục
