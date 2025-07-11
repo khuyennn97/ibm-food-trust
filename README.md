@@ -99,4 +99,4 @@ Truy cập tại: http://localhost:5000
 
   ---
   ## 📄License
-  MIT License - xem file LICENSE để biết thêm chi tiết
+  MIT License - xem file License để biết thêm chi tiết
