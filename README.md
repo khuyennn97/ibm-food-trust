@@ -58,7 +58,7 @@ ibm-food-trust/
 ### Bước 1: Clone repository
 
 ```bash
-git clone https://github.com/khuyenmn97/ibm-food-trust.git
+git clone https://github.com/khuyennn97/ibm-food-trust.git
 cd ibm-food-trust
 ```
 
