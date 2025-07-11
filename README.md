@@ -77,12 +77,20 @@ cd ibm-food-trust
 pip install -r requirements.txt
 ### ▶️ Bước 3: Chạy ứng dụng Flask
 python app.py
+
 Truy cập tại: http://localhost:5000
+
 🌐 Triển khai trên Render
+
   1.Push code lên GitHub
+  
   2.Truy cập https://render.com
+  
   3.Chọn New Web Service
+  
   4.Kết nối GitHub → chọn repo ibm-food-trust
+  
   5.Start command:
+  
     python app.py
   6.Build command: (Để trống hoặc dùng pip install -r requirements.txt)
